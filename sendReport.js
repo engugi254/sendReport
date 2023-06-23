@@ -1,15 +1,16 @@
 const nodemailer = require('nodemailer');
+require("dotenv").config()
 
 const transporter = nodemailer.createTransport({
   service: 'hotmail',
   auth: {
-    user: 'edward.ngugi@thejitu.com',
-    pass: 'xvxjxeeokhvbbrqn'
+    user: process.env.user,
+    pass: process.env.pass
   }
 });
 const mailOptions = {
-  from: ['edward.ngugi@thejitu.com'],
-  to: ['jonathan.mwaniki@thejitu.com'],
+  from: 'engugi504@gmail.com',
+  to: ['edwardmngugi01@gmail.com'],
   subject: 'Weekly Report 8',
   text: 'I have attached my file below.',
   attachments: [
