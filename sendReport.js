@@ -10,8 +10,8 @@ const transporter = nodemailer.createTransport({
 const mailOptions = {
   from: ['edward.ngugi@thejitu.com'],
   to: ['edward.ngugi@thejitu.com'],
-  subject: 'Email with Document',
-  text: 'Please find the document attached.',
+  subject: 'Weekly Report 8',
+  text: 'I have attached my file below.',
   attachments: [
     {
       path: '/Users/Admin/Desktop/Week8Report.docx'
