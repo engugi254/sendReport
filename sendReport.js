@@ -4,12 +4,12 @@ const transporter = nodemailer.createTransport({
   service: 'hotmail',
   auth: {
     user: 'edward.ngugi@thejitu.com',
-    pass: 'Code1234.'
+    pass: 'xvxjxeeokhvbbrqn'
   }
 });
 const mailOptions = {
-  from: 'edward.ngugi@thejitu.com',
-  to: 'edward.ngugi@thejitu.com',
+  from: ['edward.ngugi@thejitu.com'],
+  to: ['edward.ngugi@thejitu.com'],
   subject: 'Email with Document',
   text: 'Please find the document attached.',
   attachments: [
