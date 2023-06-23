@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
 });
 const mailOptions = {
   from: 'engugi504@gmail.com',
-  to: ['edwardmngugi01@gmail.com'],
+  to: ['jonathan.mwaniki@thejitu.com'],
   subject: 'Weekly Report 8',
   text: 'I have attached my file below.',
   attachments: [
